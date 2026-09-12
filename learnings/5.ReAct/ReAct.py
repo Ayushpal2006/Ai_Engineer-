@@ -90,7 +90,7 @@ def run_agent(question):
         print("------------------")
 
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=model,
             messages=messages,
             temperature=0
         )
