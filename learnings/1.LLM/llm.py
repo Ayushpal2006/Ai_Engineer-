@@ -11,7 +11,7 @@ if not my_api_key:
 
 Client = Groq(api_key=my_api_key)
 
-model = "llama-3.3-70b-versatile"
+model = "openai/gpt-oss-120b"
 role = "user"
 content = "Write a code for fibonacci series in python"
 message = [{"role": role, "content": content}]
